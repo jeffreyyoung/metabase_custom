@@ -190,8 +190,8 @@ const dateTimeCard = {
     visualization_settings: {
       "graph.colors": [
         "#F1B556",
-        "#9cc177",
-        "#a989c5",
+        "#FF8B5A",
+        "#6b6b6b",
         "#ef8c8c",
         "#f9d45c",
         "#F1B556",

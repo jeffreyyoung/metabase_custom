@@ -25,7 +25,7 @@
 
 .Icon--pulse {
   border-radius: 99px;
-  box-shadow: 0 0 5px #509ee3;
+  box-shadow: 0 0 5px #FF4E00;
   padding: 0.75em;
   animation-name: icon-pulse;
   animation-duration: 2s;

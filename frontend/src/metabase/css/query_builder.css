@@ -498,7 +498,7 @@
 
 .ChartType--selected {
   color: white;
-  background-color: rgb(74, 144, 226);
+  background-color: #FD8A59;
 }
 
 .ChartType--notSensible {

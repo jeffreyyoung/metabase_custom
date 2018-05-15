@@ -4,7 +4,7 @@
   --breadcrumb-divider-spacing: 0.75em;
   /* taken from Sidebar.css, should probably factor them out into variables */
   --sidebar-breadcrumbs-color: #9caebe;
-  --sidebar-breadcrumb-page-color: #2d86d4;
+  --sidebar-breadcrumb-page-color: #D74203;
 }
 
 :local(.breadcrumbs) {

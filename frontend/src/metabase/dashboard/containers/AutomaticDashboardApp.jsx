@@ -205,7 +205,7 @@ const TransientFilter = ({ filter }) => (
 
 const suggestionClasses = cxs({
   ":hover h3": {
-    color: "#509ee3",
+    color: "#FF4E00",
   },
   ":hover .Icon": {
     color: "#F9D45C",

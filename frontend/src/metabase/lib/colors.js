@@ -37,9 +37,9 @@ export const desaturated = {
 };
 
 export const harmony = [
-  "#509ee3",
-  "#9cc177",
-  "#a989c5",
+  "#FF4E00",
+  "#FF8B5A",
+  "#6b6b6b",
   "#ef8c8c",
   "#f9d45c",
   "#F1B556",

@@ -49,7 +49,7 @@
 /* scroll light */
 .scroll-show.scroll--light::-webkit-scrollbar-thumb {
   border-radius: 0;
-  background-color: #cfe4f5;
+  background-color: #FFA67F;
 }
 
 .scroll-show.scroll--light::-webkit-scrollbar-thumb:horizontal:hover,

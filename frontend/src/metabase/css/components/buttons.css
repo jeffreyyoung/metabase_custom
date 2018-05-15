@@ -3,8 +3,8 @@
   --default-button-border-color: #b9b9b9;
   --default-button-background-color: #fff;
 
-  --primary-button-border-color: #509ee3;
-  --primary-button-bg-color: #509ee3;
+  --primary-button-border-color: #FF4E00;
+  --primary-button-bg-color: #FF4E00;
   --warning-button-border-color: #ef8c8c;
   --warning-button-bg-color: #ef8c8c;
   --danger-button-bg-color: #ef8c8c;
@@ -102,14 +102,14 @@
 
 .Button--purple {
   color: white;
-  background-color: #a989c5;
-  border: 1px solid #a989c5;
+  background-color: #6b6b6b;
+  border: 1px solid #6b6b6b;
 }
 
 .Button--purple:hover {
   color: white;
-  background-color: #885ab1;
-  border-color: #885ab1;
+  background-color: #424242;
+  border-color: #424242;
 }
 
 .Button--borderless {
@@ -165,7 +165,7 @@
 
 .Button-group--blue .Button--active {
   background-color: rgb(227, 238, 250);
-  color: rgb(74, 144, 226);
+  color: #FD8A59;
 }
 
 .Button-group--brand {

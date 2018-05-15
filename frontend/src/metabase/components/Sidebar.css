@@ -15,7 +15,7 @@
 :local(.sidebar) {
   composes: py2 from "style";
   width: 345px;
-  background-color: rgb(248, 252, 253);
+  background-color: #fdf8f8;
   border-right: 1px solid rgb(223, 238, 245);
   color: #606e7b;
 }
@@ -39,7 +39,7 @@
   composes: transition-color from "style";
   composes: transition-background from "style";
   font-size: 1em;
-  color: #cfe4f5;
+  color: #FFA67F;
 }
 
 :local(.item) :local(.icon) {
@@ -58,7 +58,7 @@
 :local(.item):hover,
 :local(.sectionTitle):hover {
   background-color: #e3f0f9;
-  color: #2d86d4;
+  color: #D74203;
 }
 
 :local(.divider) {
@@ -77,7 +77,7 @@
 
 :local(.item):hover :local(.name),
 :local(.item.selected) :local(.name) {
-  color: #2d86d4;
+  color: #D74203;
 }
 
 :local(.icon) {
