@@ -76,14 +76,14 @@
 
 ;; admin shouldn't get email saying user joined until they accept the invite (i.e., reset their password)
 (expect
-  {"<New User>"             ["You're invited to join Metabase's Metabase"]}
+  {"<New User>"             ["You're invited to join Plena Data's Metabase"]}
   (do
     (test-users/delete-temp-users!)
     (invite-user-accept-and-check-inboxes! :invitor {:email "crowberto@metabase.com", :is_active true}, :accept-invite? false)))
 
 ;; admin should get an email when a new user joins...
 (expect
-  {"<New User>"             ["You're invited to join Metabase's Metabase"]
+  {"<New User>"             ["You're invited to join Plena Data's Metabase"]
    "crowberto@metabase.com" ["<New User> accepted their Metabase invite"]}
   (do
     (test-users/delete-temp-users!)
@@ -91,7 +91,7 @@
 
 ;; ...including the site admin if it is set...
 (expect
-  {"<New User>"             ["You're invited to join Metabase's Metabase"]
+  {"<New User>"             ["You're invited to join Plena Data's Metabase"]
    "crowberto@metabase.com" ["<New User> accepted their Metabase invite"]
    "cam@metabase.com"       ["<New User> accepted their Metabase invite"]}
   (tu/with-temporary-setting-values [admin-email "cam@metabase.com"]
@@ -100,7 +100,7 @@
 
 ;; ... but if that admin is inactive they shouldn't get an email
 (expect
-  {"<New User>"             ["You're invited to join Metabase's Metabase"]
+  {"<New User>"             ["You're invited to join Plena Data's Metabase"]
    "crowberto@metabase.com" ["<New User> accepted their Metabase invite"]}
   (do
     (test-users/delete-temp-users!)

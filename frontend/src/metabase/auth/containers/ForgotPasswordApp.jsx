@@ -81,7 +81,7 @@ export default class ForgotPasswordApp extends Component {
                       <input
                         className="Form-input Form-offset full"
                         name="email"
-                        placeholder={t`The email you use for your Metabase account`}
+                        placeholder={t`The email you use for your Plena Dataaccount`}
                         type="text"
                         onChange={e => this.setState({ email: e.target.value })}
                         defaultValue={this.state.email}

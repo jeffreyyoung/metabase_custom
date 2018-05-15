@@ -1,7 +1,7 @@
 /* @flow weak */
 
 /*
-    Metabase Icon Paths
+    Plena Data Icon Paths
     -----
 
     These paths represent the current canonical icon set for Metabase.

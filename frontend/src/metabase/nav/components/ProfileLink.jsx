@@ -167,7 +167,7 @@ export default class ProfileLink extends Component {
                     onClick={this.openModal.bind(this, "about")}
                     className="Dropdown-item block text-white no-decoration"
                   >
-                    {t`About Metabase`}
+                    {t`About Plena Data`}
                   </a>
                 </li>
 

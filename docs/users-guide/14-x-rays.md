@@ -22,7 +22,7 @@ To quickly make your new dashboard visible to other users, go to the collection 
 
 ### Creating x-rays by clicking on charts or tables
 
-One great way to explore your data in general in Metabase is to click on points of interest in charts or tables, which shows you ways to further explore that point. We've added x-rays to this action menu, so if you for example find a point on your line chart that seems extra interesting, give it a click and x-ray it! We think you'll like what you see.
+One great way to explore your data in general in Plena Data is to click on points of interest in charts or tables, which shows you ways to further explore that point. We've added x-rays to this action menu, so if you for example find a point on your line chart that seems extra interesting, give it a click and x-ray it! We think you'll like what you see.
 
 ![X-ray action in drill-through menu](.images/x-rays/drill-through.png)
 

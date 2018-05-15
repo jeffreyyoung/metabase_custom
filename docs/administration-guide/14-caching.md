@@ -1,4 +1,4 @@
-## Caching query results in Metabase
+## Caching query results in Plena Data
 Metabase now gives you the ability to automatically cache the results of queries that take a long time to run.
 
 ### Enabling caching

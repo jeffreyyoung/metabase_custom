@@ -52,7 +52,7 @@
 ;;; ### Public Interface
 
 (defn send-new-user-email!
-  "Send an email to INVITIED letting them know INVITOR has invited them to join Metabase."
+  "Send an email to INVITIED letting them know INVITOR has invited them to join Plena Data."
   [invited invitor join-url]
   (let [company      (or (public-settings/site-name) "Unknown")
         message-body (stencil/render-file "metabase/email/new_user_invite"

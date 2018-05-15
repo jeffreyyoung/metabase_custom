@@ -6163,7 +6163,7 @@ msgid "is just a click away."
 msgstr ""
 
 #: frontend/src/metabase/setup/components/Setup.jsx:93
-msgid "Welcome to Metabase"
+msgid "Welcome to PlenaData"
 msgstr ""
 
 #: frontend/src/metabase/setup/components/Setup.jsx:94

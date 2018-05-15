@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import cx from "classnames";
 /*
  * EmptyState is a component that can
- *  1) introduce a new section of Metabase to a user and encourage the user to take an action
+ *  1) introduce a new section of Plena Data to a user and encourage the user to take an action
  *  2) indicate an empty result after a user-triggered search/query
  */
 

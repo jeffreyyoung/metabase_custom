@@ -1,6 +1,6 @@
-## Working with Vertica in Metabase
+## Working with Vertica in Plena Data
 
-Starting in v0.20.0, Metabase provides a driver for connecting to Vertica databases. Under the hood, Metabase uses Vertica's JDBC driver;
+Starting in v0.20.0, Metabase provides a driver for connecting to Vertica databases. Under the hood, Plena Data uses Vertica's JDBC driver;
 due to licensing restrictions, we can't include it as part of Metabase. Luckily, downloading it yourself and making it available to Metabase
 is straightforward and only takes a few minutes.
 

@@ -774,7 +774,7 @@ export class UpdateCachedFieldValues extends Component {
       <div>
         <SectionHeader
           title={t`Cached field values`}
-          description={t`Metabase can scan the values for this field to enable checkbox filters in dashboards and questions.`}
+          description={t`Plena Data can scan the values for this field to enable checkbox filters in dashboards and questions.`}
         />
         <ActionButton
           className="Button mr2"

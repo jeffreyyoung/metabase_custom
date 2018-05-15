@@ -162,7 +162,7 @@ export default class DatabaseConnectionStep extends Component {
           <StepTitle title={stepText} circleText={"2"} />
           <div className="mb4">
             <div style={{ maxWidth: 600 }} className="Form-field Form-offset">
-              {t`You’ll need some info about your database, like the username and password. If you don’t have that right now, Metabase also comes with a sample dataset you can get started with.`}
+              {t`You’ll need some info about your database, like the username and password. If you don’t have that right now, Plena Data also comes with a sample dataset you can get started with.`}
             </div>
 
             <FormField fieldName="engine">

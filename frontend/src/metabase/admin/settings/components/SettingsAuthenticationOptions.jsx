@@ -10,7 +10,7 @@ class SettingsAuthenticationOptions extends Component {
           <div className="bordered rounded shadowed bg-white p4">
             <h2>{t`Sign in with Google`}</h2>
             <p
-            >{t`Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password.`}</p>
+            >{t`Allows users with existing Plena Data accounts to login with a Google account that matches their email address in addition to their Plena Data username and password.`}</p>
             <Link
               className="Button"
               to="/admin/settings/authentication/google"
@@ -22,7 +22,7 @@ class SettingsAuthenticationOptions extends Component {
           <div className="bordered rounded shadowed bg-white p4">
             <h2>{t`LDAP`}</h2>
             <p
-            >{t`Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups.`}</p>
+            >{t`Allows users within your LDAP directory to log in to Plena Data with their LDAP credentials, and allows automatic mapping of LDAP groups to Plena Data groups.`}</p>
             <Link
               className="Button"
               to="/admin/settings/authentication/ldap"

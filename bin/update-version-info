@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Generate the version-info.json file which provides basic information about the latest versions of Metabase available.
+# Generate the version-info.json file which provides basic information about the latest versions of Plena Data available.
 # This is used inside the Metabase application as a simple mechanism to be aware if an upgrade is available.
 
 build() {

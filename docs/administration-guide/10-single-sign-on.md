@@ -14,7 +14,7 @@ To create a new application follow [the instructions from Google here](https://d
 
 Note that when creating the app you only need to specify the url of your Metabase install in the “Javascript Origins” field. You should leave the “redirect-url” blank.
 
-Once you have your client_id, copy and paste it into the box on the Single Sign-On sections of your Metabase Admin settings page. ```XXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com```
+Once you have your client_id, copy and paste it into the box on the Single Sign-On sections of your Plena Data Admin settings page. ```XXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com```
 
 Now existing Metabase users signed into a Google account that matches their Metabase account email can sign in with just a click.
 
@@ -41,7 +41,7 @@ Metabase will pull out three main attributes from your LDAP directory - email (d
 
 ![Attributes](./images/ldap-attributes.png)
 
-If you have user groups in Metabase you are using to control access, it is often tedious to have to manually assign a user to a group after they're logged in via SSO. You can take advantage of the groups your LDAP directory uses by enabling Group Mappings, and specifying which LDAP group corresponds to which user group on your Metabase server. 
+If you have user groups in Plena Data you are using to control access, it is often tedious to have to manually assign a user to a group after they're logged in via SSO. You can take advantage of the groups your LDAP directory uses by enabling Group Mappings, and specifying which LDAP group corresponds to which user group on your Metabase server. 
 
 ---
 

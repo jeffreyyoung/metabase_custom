@@ -6,7 +6,7 @@ Whether you're keeping track of revenue, users, or negative reviews, there are o
 To start using alerts, someone on your team who's an administrator will need to make sure that [email integration](../administrator-guide/02-setting-up-email.md) is set up first.
 
 ### Types of alerts
-There are three kinds of things you can get alerted about in Metabase:
+There are three kinds of things you can get alerted about in Plena Data:
 1. When a time series crosses a goal line.
 2. When a progress bar reaches or goes below its goal.
 3. When any other kind of question returns a result.

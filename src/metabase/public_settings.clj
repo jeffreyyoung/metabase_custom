@@ -14,22 +14,22 @@
   (:import [java.util Locale TimeZone UUID]))
 
 (defsetting check-for-updates
-  (tru "Identify when new versions of Metabase are available.")
+  (tru "Identify when new versions of Plena Data are available.")
   :type    :boolean
   :default true)
 
 (defsetting version-info
-  (tru "Information about available versions of Metabase.")
+  (tru "Information about available versions of Plena Data.")
   :type    :json
   :default {})
 
 (defsetting site-name
-  (tru "The name used for this instance of Metabase.")
+  (tru "The name used for this instance of Plena Data.")
   :default "Metabase")
 
 (defsetting site-uuid
   ;; Don't i18n this docstring because it's not user-facing! :)
-  "Unique identifier used for this instance of Metabase. This is set once and only once the first time it is fetched via
+  "Unique identifier used for this instance of Plena Data. This is set once and only once the first time it is fetched via
   its magic getter. Nice!"
   :internal? true
   :setter    (fn [& _]
@@ -44,7 +44,7 @@
 ;; This value is *guaranteed* to never have a trailing slash :D
 ;; It will also prepend `http://` to the URL if there's not protocol when it comes in
 (defsetting site-url
-  (tru "The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\".")
+  (tru "The base URL of this Plena Data instance, e.g. \"http://metabase.my-company.com\".")
   :setter (fn [new-value]
             (setting/set-string! :site-url (when new-value
                                              (cond->> (s/replace new-value #"/$" "")
@@ -63,7 +63,7 @@
   (tru "The email address users should be referred to if they encounter a problem."))
 
 (defsetting anon-tracking-enabled
-  (tru "Enable the collection of anonymous usage data in order to help Metabase improve.")
+  (tru "Enable the collection of anonymous usage data in order to help Plena Data improve.")
   :type   :boolean
   :default true)
 

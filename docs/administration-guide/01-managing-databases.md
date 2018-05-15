@@ -168,7 +168,7 @@ There are several inherent limitations to connecting through a tunnel:
 
 #### What if The Built in SSH Tunnels Don't Fit My Needs?
 
-This feature exists as a convenient wrapper around SSH and automates the common cases of connecting through a tunnel. It also makes connecting possible from systems that don't have or allow shell access. Metabase uses a built in SSH client that does not depend on the installed system's ssh client. This allows connecting from systems where it's not possible to run SSH manually, it also means that Metabase cannot take advantage of authentication services provided by the system such as Windows Domain Authentication or Kerberos Authentication.
+This feature exists as a convenient wrapper around SSH and automates the common cases of connecting through a tunnel. It also makes connecting possible from systems that don't have or allow shell access. Plena Data uses a built in SSH client that does not depend on the installed system's ssh client. This allows connecting from systems where it's not possible to run SSH manually, it also means that Metabase cannot take advantage of authentication services provided by the system such as Windows Domain Authentication or Kerberos Authentication.
 
 If you need to connect using a method not enabled by Metabase, you can often accomplish this by running ssh directly:
 

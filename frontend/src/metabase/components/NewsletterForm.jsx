@@ -67,7 +67,7 @@ export default class NewsletterForm extends Component {
             <span
               className="inline-block"
               style={{ marginTop: 1 }}
-            >{t`Metabase Newsletter`}</span>
+            >{t`Plena Data Newsletter`}</span>
           </div>
         </div>
 
@@ -99,7 +99,7 @@ export default class NewsletterForm extends Component {
                 ) : (
                   <div className="text-success text-centered text-bold h3 p1">
                     <Icon className="mr2" name="check" size={16} />
-                    {t`You're subscribed. Thanks for using Metabase!`}
+                    {t`You're subscribed. Thanks for using Plena Data!`}
                   </div>
                 )}
               </div>

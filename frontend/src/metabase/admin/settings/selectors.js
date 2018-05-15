@@ -291,7 +291,7 @@ const SECTIONS = [
       {
         key: "map-tile-server-url",
         display_name: t`Map tile server URL`,
-        note: t`Metabase uses OpenStreetMaps by default.`,
+        note: t`Plena Data uses OpenStreetMaps by default.`,
         type: "string",
       },
       {
@@ -354,7 +354,7 @@ const SECTIONS = [
       },
       {
         key: "enable-embedding",
-        display_name: t`Enable Embedding Metabase in other Applications`,
+        display_name: t`Enable Embedding Plena Data in other Applications`,
         type: "boolean",
         getHidden: settings => !settings["enable-embedding"],
       },

@@ -247,7 +247,7 @@ export default class GettingStartedGuideEditForm extends Component {
             <div className="wrapper wrapper--trim">
               <div className="mt4 py2">
                 <h1 className="my3 text-dark">
-                  {t`Help new Metabase users find their way around.`}
+                  {t`Help new Plena Data users find their way around.`}
                 </h1>
                 <p className="text-paragraph text-measure">
                   {t`The Getting Started guide highlights the dashboard, metrics, segments, and tables that matter most, and informs your users of important things they should know before digging into the data.`}

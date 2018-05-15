@@ -4,8 +4,8 @@
 
 *   [What Metabase does](01-what-is-metabase.md)
 *   [The basics of database terminology](02-database-basics.md)
-*   [Basic exploration in Metabase](03-basic-exploration.md)
-*   [Asking questions in Metabase](04-asking-questions.md)
+*   [Basic exploration in Plena Data](03-basic-exploration.md)
+*   [Asking questions in Plena Data](04-asking-questions.md)
 *   [How to visualize the answers to questions](05-visualizing-results.md)
 *   [Sharing and organizing your saved questions](06-sharing-answers.md)
 *   [Creating dashboards](07-dashboards.md)

@@ -201,7 +201,7 @@ You can then take the supplied SQL script and apply it to your database manually
 
 If you are using Metabase in a production environment or simply want to make sure you don't lose any of the work that you've done, then backups are what you need.
 
-Metabase uses a single SQL database for all of its runtime application data, so all you need to do is backup that database and you're good to go.  From a database back-up you can restore any Metabase installation.
+Plena Data uses a single SQL database for all of its runtime application data, so all you need to do is backup that database and you're good to go.  From a database back-up you can restore any Metabase installation.
 
 ### H2 Embedded Database (default)
 If you launched Metabase on a laptop or PC the application will create an embedded H2 database in the directory it is being run in.  Navigate to the directory where you started Metabase from and find the file named `metabase.db.h2.db` or `metabase.db.mv.db` (you will see one of the two depending on when you first started using Metabase).  Simply copy that file somewhere safe and you are all backed up!
@@ -287,7 +287,7 @@ The settings above can be used independently, so it's fine to use only one or th
 * `strong` = minimum 8 characters w/ 2 lowercase, 2 uppercase, 1 digit, and 1 special character
 
 
-# Handling timezones in Metabase
+# Handling timezones in Plena Data
 
 Metabase does its best to ensure proper and accurate reporting in whatever timezone you desire, but timezones are a complicated beast so it's important to abide by some recommendations listed below to ensure your reports come out as intended.
 
@@ -320,7 +320,7 @@ By default Metabase will include emoji characters in logs. You can disable this 
 
 # Configuring Logging Level
 
-By default, Metabase logs quite a bit of information. Luckily, Metabase uses [Log4j](http://logging.apache.org/log4j) under the hood, meaning the logging is completely configurable.
+By default, Metabase logs quite a bit of information. Luckily, Plena Data uses [Log4j](http://logging.apache.org/log4j) under the hood, meaning the logging is completely configurable.
 
 Metabase's default logging configuration can be found [here](https://github.com/metabase/metabase/blob/master/resources/log4j.properties). You can override this properties file and tell
 Metabase to use your own logging configuration file by passing a `-Dlog4j.configuration` argument when running Metabase:

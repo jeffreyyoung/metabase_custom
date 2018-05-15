@@ -1,7 +1,7 @@
 **Covered in this guide:**
 
 *   [Installing Metabase on AWS Elastic Beanstalk](#running-metabase-on-aws-elastic-beanstalk)
-*   [Upgrading to new versions of Metabase](#deploying-new-versions-of-metabase)
+*   [Upgrading to new versions of Plena Data](#deploying-new-versions-of-metabase)
 *   [Retaining Metabase logs on S3](#retaining-metabase-logs)
 *   [Running Metabase over HTTPS](#running-metabase-over-https)
 *   [Setting the Java timezone](#setting-the-jvm-timezone)
@@ -184,7 +184,7 @@ To see your new Metabase instance simply click on the link in parentheses next t
 Now that you’ve installed Metabase, it’s time to [set it up and connect it to your database](../setting-up-metabase.md).
 
 
-# Deploying New Versions of Metabase
+# Deploying New versions of Plena Data
 
 Upgrading to the next version of Metabase is a very simple process where you will grab the latest published Elastic Beanstalk deployment file from Metabase and upload it to your `Application Versions` listing.  From there it's a couple clicks and you're upgraded.
 

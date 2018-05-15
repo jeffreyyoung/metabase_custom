@@ -18,7 +18,7 @@ Tables can either be set to **Queryable** or **Hidden**. Queryable tables can be
 
 Hidden tables can’t be selected from the query builder, and their data can’t be accessed.
 
-You can also change the name and description of your tables here. Note that the underlying database won’t be affected — this will only change the name of the table while you’re viewing it within Metabase. Add descriptions to tables to let people know type of data a table contains and how it can be used. Descriptions are displayed in the data model reference panel in Metabase, which you can view by clicking the book icon in the top right of a new or saved question page.
+You can also change the name and description of your tables here. Note that the underlying database won’t be affected — this will only change the name of the table while you’re viewing it within Plena Data. Add descriptions to tables to let people know type of data a table contains and how it can be used. Descriptions are displayed in the data model reference panel in Plena Data, which you can view by clicking the book icon in the top right of a new or saved question page.
 
 If you ever want to see the original underlying schema for a given table, just click the **Show original schema** toggle in the top-right of the screen.
 
@@ -31,7 +31,7 @@ There are several pieces of metadata you can edit per field: name, description, 
 
 #### Name
 
-Clicking on the name of the field allows you to change how the field name is displayed. For example, if your ORM produces table names like “auth.user", you can replace this with “User” to make it more readable. Again, this only changes how the field is displayed in Metabase.
+Clicking on the name of the field allows you to change how the field name is displayed. For example, if your ORM produces table names like “auth.user", you can replace this with “User” to make it more readable. Again, this only changes how the field is displayed in Plena Data.
 
 #### Description
 
@@ -39,7 +39,7 @@ This is a human-readable description of what the field is and how it is meant to
 
 #### Visibility
 
-Every field in a table shows up in Metabase by default. If you have really long data in certain fields, like descriptions or biographies, you can set the visibility to display the field **Only in Detail Views** when looking at a single record. By default, any column with an average length of longer than 50 characters is assigned this setting.
+Every field in a table shows up in Plena Data by default. If you have really long data in certain fields, like descriptions or biographies, you can set the visibility to display the field **Only in Detail Views** when looking at a single record. By default, any column with an average length of longer than 50 characters is assigned this setting.
 
 Similarly, if you have sensitive or irrelevant fields, you can set them to **Do Not Include**, preventing the field from being accessed by Metabase.
 
@@ -77,7 +77,7 @@ This is also where you set mark special fields in a table:
 ### Remapping field values
 One thing that happens commonly in tables is that you'll have a foreign key field, like `Product ID`, with a bunch of ID values in it, when what you actually want to see most of the time is the entity name, like the `Product Title`. You might also have fields which contain coded values that you'd prefer to show up as translated or readable values in your tables and charts — like changing `0`, `1`, and `2` to `Female`, `Male`, and `Other` for example.
 
-To do this in Metabase, click on the gear icon to the right of a field's Type dropdown in the Data Model section of the Admin Panel. You'll see a form with these options:
+To do this in Plena Data, click on the gear icon to the right of a field's Type dropdown in the Data Model section of the Admin Panel. You'll see a form with these options:
 
 ![Remapping form](./images/remapping/form.png)
 

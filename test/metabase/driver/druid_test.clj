@@ -136,7 +136,7 @@
 (defmacro ^:private druid-query-returning-rows {:style/indent 0} [& body]
   `(rows (druid-query ~@body)))
 
-;; Count the number of events in the given week. Metabase uses Sunday as the start of the week, Druid by default will
+;; Count the number of events in the given week. Plena Data uses Sunday as the start of the week, Druid by default will
 ;; use Monday.All of the below events should happen in one week. Using Druid's default grouping, 3 of the events would
 ;; have counted for the previous week
 (expect-with-engine :druid

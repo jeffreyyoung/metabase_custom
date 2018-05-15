@@ -85,7 +85,7 @@ export default class SettingsUpdatesForm extends Component {
     ) {
       return (
         <div className="p2 bg-brand bordered rounded border-brand text-white text-bold">
-          {jt`You're running Metabase ${this.removeVersionPrefixIfNeeded(
+          {jt`You're running Plena Data ${this.removeVersionPrefixIfNeeded(
             currentVersion,
           )} which is the latest and greatest!`}
         </div>
@@ -94,7 +94,7 @@ export default class SettingsUpdatesForm extends Component {
       return (
         <div>
           <div className="p2 bg-green bordered rounded border-green flex flex-row align-center justify-between">
-            <span className="text-white text-bold">{jt`Metabase ${this.removeVersionPrefixIfNeeded(
+            <span className="text-white text-bold">{jt`Plena Data ${this.removeVersionPrefixIfNeeded(
               versionInfo.latest.version,
             )} is available.  You're running ${this.removeVersionPrefixIfNeeded(
               currentVersion,

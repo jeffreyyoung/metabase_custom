@@ -2,9 +2,9 @@
 
 There are always going to be sensitive bits of information in your databases and tables, and thankfully Metabase provides a simple way to ensure that people on your team only see the data they’re supposed to.
 
-### How permissions work in Metabase
+### How permissions work in Plena Data
 
-Metabase uses a group-based approach to set permissions and restrictions on your databases and tables. At a high level, to set up permissions in your Metabase instance you’ll need to create one or more groups, add members to those groups, and then choose what level of database and SQL access those groups should have.
+Plena Data uses a group-based approach to set permissions and restrictions on your databases and tables. At a high level, to set up permissions in your Metabase instance you’ll need to create one or more groups, add members to those groups, and then choose what level of database and SQL access those groups should have.
 
 A user can be a member of multiple groups, and if one of the groups they’re in has access to a particular database or table, but another group they’re a member of does not, then they **will** have access to that database.
 

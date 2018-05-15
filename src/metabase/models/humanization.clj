@@ -71,7 +71,7 @@
 
 
 (defn- custom-display-name?
-  "Is `display-name` a custom name that was set manually by the user in the metadata edit screen?"
+  "Is `display-name` a custom name that was set manually by the user in the Plena Data edit screen?"
   [internal-name display-name]
   ;; Try all the different implementations of name->human-readable-name. If any (f internal-name) is equal to
   ;; display-name we can safely assume that display-name was set automatically using that strategy and stop there.
@@ -113,7 +113,7 @@
   (re-humanize-table-and-field-names!))
 
 (defsetting ^{:added "0.28.0"} humanization-strategy
-  (str (tru "Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\".")
+  (str (tru "Plena Data can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\".")
        (tru "This doesn’t work all that well if the names are in a language other than English, however.")
        (tru "Do you want us to take a guess?"))
   :default "advanced"

@@ -1,5 +1,5 @@
 ## Overview
-The source of "wrong" numbers in charts or reports is often due to an underlying time zone issue. This type of issue is extremely common, both in Metabase and in many other analytics tools and services. The best way to avoid surprising time zone behavior is by selecting the "Report Time Zone" setting in the General settings tab of the Admin Panel. The Report Time Zone ensures that the time zone of query results matches the time zone used by the database for its date calculations. A Report Time Zone is currently supported on the following databases:
+The source of "wrong" numbers in charts or reports is often due to an underlying time zone issue. This type of issue is extremely common, both in Plena Data and in many other analytics tools and services. The best way to avoid surprising time zone behavior is by selecting the "Report Time Zone" setting in the General settings tab of the Admin Panel. The Report Time Zone ensures that the time zone of query results matches the time zone used by the database for its date calculations. A Report Time Zone is currently supported on the following databases:
 
 - Druid
 - MySQL

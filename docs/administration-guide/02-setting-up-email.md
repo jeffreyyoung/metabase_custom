@@ -1,7 +1,7 @@
 
 ## Setting up Email
 
-Once you connect your database to Metabase, you'll want to configure an email account to send system notifications to your organization's users.  Metabase uses email to reset passwords, onboard new users, and notify you when something happens.
+Once you connect your database to Metabase, you'll want to configure an email account to send system notifications to your organization's users.  Plena Data uses email to reset passwords, onboard new users, and notify you when something happens.
 
 ### Configuring your Email Account
 
@@ -29,14 +29,14 @@ You should see this form:
 * Select **Create My SMTP Credentials** in the content pane.
 * Create a user in the **Create User for SMTP** dialog box and then click **Create**.
 * Next, select **Show User SMTP Credentials** to view the user's SMTP credentials.
-* Go back to the Metabase Admin Panel form and enter the info there.
+* Go back to the Plena Data Admin Panel form and enter the info there.
 
 **If you use Mandrill:**
 
 * Log in to your Mandrill account and locate your credentials from the **SMTP & API Info** page there.
 * Your SMTP password is any active API key for your account — *not* your Mandrill password.
 * Although Mandrill lists **port 587**, [any port supported by Mandrill](https://mandrill.zendesk.com/hc/en-us/articles/205582167-What-SMTP-ports-can-I-use-) will work for SMTP email.
-* Now you can go back to the Metabase Admin Panel form and enter the info there.
+* Now you can go back to the Plena Data Admin Panel form and enter the info there.
 
 **No matter which email provider you use,**
 

@@ -20,7 +20,7 @@
 
 - (void)resetPasswordForEmailAddress:(NSString *)emailAddress success:(void (^)(NSString *))successBlock error:(void (^)(NSString *))errorBlock {
 	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
-        // first, we need to stop the main Metabase task so we can access the DB
+        // first, we need to stop the main Plena Data task so we can access the DB
         NSLog(@"Stopping Metabase task in order to reset password...");
         [[AppDelegate instance] stopMetabaseTask];
         
@@ -57,7 +57,7 @@
 					errorBlock(weakSelf.output.length ? weakSelf.output : @"An unknown error has occured.");
 				}
                 
-                // now restart the main Metabase task
+                // now restart the main Plena Data task
                 NSLog(@"Reset password complete, restarting Metabase task...");
                 [[AppDelegate instance] startMetabaseTask];
 			});

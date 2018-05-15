@@ -117,7 +117,7 @@ export default class DatabaseSchedulingForm extends Component {
             <div className="Form-offset mr4 mt4">
               <div style={{ maxWidth: 600 }} className="border-bottom pb2">
                 <p className="text-paragraph text-measure">
-                  {t`To do some of its magic, Metabase needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below.`}
+                  {t`To do some of its magic, Plena Data needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below.`}
                 </p>
               </div>
 
@@ -148,13 +148,13 @@ export default class DatabaseSchedulingForm extends Component {
 
               <div className="mt4">
                 <h4 className="text-bold text-default text-uppercase">{t`Scanning for Filter Values`}</h4>
-                <p className="text-paragraph text-measure">{t`Metabase can scan the values present in each
+                <p className="text-paragraph text-measure">{t`Plena Data can scan the values present in each
                                     field in this database to enable checkbox filters in dashboards and questions. This
                                     can be a somewhat resource-intensive process, particularly if you have a very large
                                     database.`}</p>
 
                 <h3
-                >{t`When should Metabase automatically scan and cache field values?`}</h3>
+                >{t`When should Plena Data automatically scan and cache field values?`}</h3>
                 <ol className="bordered shadowed mt3">
                   <li className="border-bottom">
                     <SyncOption
@@ -194,7 +194,7 @@ export default class DatabaseSchedulingForm extends Component {
                       select={() => this.setIsFullSyncIsOnDemand(false, true)}
                     >
                       <p className="text-paragraph text-measure">
-                        {t`When a user adds a new filter to a dashboard or a SQL question, Metabase will
+                        {t`When a user adds a new filter to a dashboard or a SQL question, Plena Data will
                                                 scan the field(s) mapped to that filter in order to show the list of selectable values.`}
                       </p>
                     </SyncOption>

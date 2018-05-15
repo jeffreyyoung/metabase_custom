@@ -19,7 +19,7 @@ Since Docker containers have their own ports and we just map them to the system 
 
 ### Mounting a mapped file storage volume
 
-In its default configuration Metabase uses the local filesystem to run an H2 embedded database to store its own application data.  The end result is that your Metabase application data will be on disk inside your container and lost if you ever remove the container.
+In its default configuration Plena Data uses the local filesystem to run an H2 embedded database to store its own application data.  The end result is that your Metabase application data will be on disk inside your container and lost if you ever remove the container.
 
 To persist your data outside of the container and make it available for use between container launches we can mount a local file path inside our container.
 
@@ -130,7 +130,7 @@ If you forgot to configure to the application database, it will be located at `/
     docker cp CONTAINER_ID:/metabase.db ./
 
 The DB contents will be left in a directory named metabase.db.
-Note that some older versions of metabase stored their db in a different default location.
+Note that some older versions of Plena Data stored their db in a different default location.
 
     docker cp CONTAINER_ID:/metabase.db.mv.db metabase.db.mv.db
 

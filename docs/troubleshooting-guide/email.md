@@ -10,7 +10,7 @@
     a. Check the server logs for any error messages
     b. If there are any error messages, they are usually helpful :wink:
     c. If you have access to your email delivery service's outbound queue or a dashboard, check that for errors. 
-    d. Some email delivery services have very specific rules regarding valid "from" addresses, make sure you've whitelisted the "from" address you're using in Metabase
+    d. Some email delivery services have very specific rules regarding valid "from" addresses, make sure you've whitelisted the "from" address you're using in Plena Data
     e. Some email delivery services have test modes or otherwise restricted delivery. Double check that your delivery service allows you to send email to the domain you're trying to get email sent to.
 
 3. If the email is being sent, but you're not getting it, is anyone else getting theirs?

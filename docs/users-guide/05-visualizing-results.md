@@ -93,27 +93,27 @@ The options for pie charts let you choose which field to use as your measurement
 ![Donut](images/visualizations/donut.png)
 
 #### Funnel
-Funnels are commonly used in e-commerce or sales to visualize how many customers are present within each step of a checkout flow or sales cycle. At their most general, funnels show you values broken out by steps, and the percent decrease between each successive step. To create a funnel in Metabase, you'll need to have a table with at least two columns: one column that contains the metric you're interested in, and another that contains the funnel's steps.
+Funnels are commonly used in e-commerce or sales to visualize how many customers are present within each step of a checkout flow or sales cycle. At their most general, funnels show you values broken out by steps, and the percent decrease between each successive step. To create a funnel in Plena Data, you'll need to have a table with at least two columns: one column that contains the metric you're interested in, and another that contains the funnel's steps.
 
 For example, I might have an Opportunities table, and I could create a question that gives me the number of sales leads broken out by a field that contains stages such as `Prospecting`, `Qualification`, `Proposal`, `Negotiation`, and `Closed`. In this example, the percentages shown along the x-axis tell you what percent of the total starting opportunities are still present at each subsequent step; so 18.89% of our total opportunities have made it all the way to being closed deals. The number below each percent is the actual value of the count at that step — in our example, the actual number of opportunities that are currently at each step. Together, these numbers help you figure out where you're losing your customers or users.
 
 ![Funnel](images/visualizations/funnel.png)
 
 #### Maps
-When you select the Map visualization setting, Metabase will automatically try and pick the best kind of map to use based on the table or result set you're currently looking at. Here are the maps that Metabase uses:
+When you select the Map visualization setting, Metabase will automatically try and pick the best kind of map to use based on the table or result set you're currently looking at. Here are the maps that Plena Data uses:
 
 * **United States Map** — Creating a map of the United States from your data requires your results to contain a column field with states. This lets you do things like visualize the count of your users broken out by state, with darker states representing more users.
 * **Country Map** — To visualize your results in the format of a map of the world broken out by country, your result must contain a field with countries. (E.g., count of users by country.)
 
 ![Region map](images/visualizations/map.png)
 
-* **Pin Map** — If your table contains a latitude and longitude field, Metabase will try to display it as a pin map of the world. This will put one pin on the map for each row in your table, based on the latitude and longitude fields. You can try this with the Sample Dataset that's included in Metabase: start a new question and select the People table, use `raw data` for your view, and choose the Map option for your visualization. you'll see a map of the world, with each dot representing the latitude and longitude coordinates of a single person from the People table.
+* **Pin Map** — If your table contains a latitude and longitude field, Metabase will try to display it as a pin map of the world. This will put one pin on the map for each row in your table, based on the latitude and longitude fields. You can try this with the Sample Dataset that's included in Plena Data: start a new question and select the People table, use `raw data` for your view, and choose the Map option for your visualization. you'll see a map of the world, with each dot representing the latitude and longitude coordinates of a single person from the People table.
 
 ![Pin map](images/visualizations/pin-map.png)
 
 When you open up the Map options, you can manually switch between a region map (i.e., United States or world) and a pin map. If you're using a region map, you can also choose which field to use as the measurement, and which to use as the region (i.e. State or Country).
 
-Metabase now also allows administrators to add custom region maps via GeoJSON files through the Metabase Admin Panel.
+Metabase now also allows administrators to add custom region maps via GeoJSON files through the Plena Data Admin Panel.
 
 ---
 

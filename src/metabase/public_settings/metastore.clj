@@ -97,7 +97,7 @@
                 (throw (ex-info (.getMessage e) {:status-code 400}))))))
 
 (defn hide-embed-branding?
-  "Should we hide the 'Powered by Metabase' attribution on the embedding pages? `true` if we have a valid premium
+  "Should we hide the 'Powered by Plena Data' attribution on the embedding pages? `true` if we have a valid premium
    embedding token."
   []
   (boolean

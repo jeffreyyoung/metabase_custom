@@ -1,5 +1,5 @@
 
-## Working with CrateDB in Metabase
+## Working with CrateDB in Plena Data
 
 Starting in v0.18.0 Metabase provides a driver for connecting to CrateDB directly and executing queries against any datasets you have. CrateDB uses the PostgreSQL Wire Protocol (since CrateDB v0.57), which makes it easy to use many PostgreSQL compatible tools and libraries directly with CrateDB. Therefore the CrateDB driver for Metabase provides and uses the PostgreSQL driver under the hood to connect to its data source. The below sections provide information on how to get connected to CrateDB.
 

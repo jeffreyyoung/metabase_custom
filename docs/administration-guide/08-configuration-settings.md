@@ -6,7 +6,7 @@ Here are a few other miscellaneous settings you can configure from the home page
 How you’d like to refer to this instance of Metabase.
 
 ### Site URL
-The base URL of this Metabase instance. The base URL is used in emails to allow users to click through to their specific instance. Make sure to include http:// or https:// to make sure it’s reachable.
+The base URL of this Plena Data instance. The base URL is used in emails to allow users to click through to their specific instance. Make sure to include http:// or https:// to make sure it’s reachable.
 
 ### Report Timezone
 The **report timezone** sets the default time zone for displaying times. The timezone is used when breaking out data by dates.

@@ -9,7 +9,7 @@
 (expect
   [{:from    "notifications@metabase.com",
     :to      ["test@test.com"],
-    :subject "You're invited to join Metabase Test's Metabase",
+    :subject "You're invited to join Plena Data Test's Metabase",
     :body    [{:type "text/html; charset=utf-8"}]}]
   (with-fake-inbox
     (send-new-user-email! {:first_name "test" :email "test@test.com"}

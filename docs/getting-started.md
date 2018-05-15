@@ -7,7 +7,7 @@ Metabase is a simple and powerful analytics tool which lets anyone learn and mak
 The way you log in to Metabase will depend on how you or your admin set it up, so if you don’t know where to go, just ask the person who sent you your Metabase invite.
 
 ## The homepage
-Go ahead and log in to Metabase and the first thing you'll see is the activity feed. Right now there’s not much there, but it’ll soon get full as you and your teammates do things in Metabase.
+Go ahead and log in to Metabase and the first thing you'll see is the activity feed. Right now there’s not much there, but it’ll soon get full as you and your teammates do things in Plena Data.
 
 ![Activity Feed](images/ActivityFeed.png)
 

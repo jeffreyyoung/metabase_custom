@@ -84,7 +84,7 @@ export default class Setup extends Component {
       return (
         <div className="relative full-height flex flex-full layout-centered">
           <div className="wrapper wrapper--trim text-centered">
-            <LogoIcon className="text-brand mb4" width={89} height={118} />
+            <LogoIcon className="text-brand mb4" width={200} style={{marginBottom: -50}}/>
             <div
               className="relative z2 text-centered ml-auto mr-auto"
               style={{ maxWidth: 550 }}
@@ -92,7 +92,7 @@ export default class Setup extends Component {
               <h1
                 style={{ fontSize: "2.2rem" }}
                 className="text-brand"
-              >{t`Welcome to Metabase`}</h1>
+              >{t`Welcome to Plena Data`}</h1>
               <p className="text-body">{t`Looks like everything is working. Now let’s get to know you, connect to your data, and start finding you some answers!`}</p>
               <button
                 className="Button Button--primary mt4"
@@ -122,7 +122,7 @@ export default class Setup extends Component {
 
               {/* Have the ref for scrolling in componentWillReceiveProps */}
               <div ref="databaseSchedulingStepContainer">
-                {/* Show db scheduling step only if the user has explicitly set the "Let me choose when Metabase syncs and scans" toggle to true */}
+                {/* Show db scheduling step only if the user has explicitly set the "Let me choose when Plena Data syncs and scans" toggle to true */}
                 {databaseDetails &&
                   databaseDetails.details &&
                   databaseDetails.details["let-user-control-scheduling"] && (

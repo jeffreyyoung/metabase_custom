@@ -113,10 +113,10 @@ export default class SettingsSingleSignOnForm extends Component {
           />
           <h2>{t`Sign in with Google`}</h2>
           <p className="text-grey-4">
-            {t`Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password.`}
+            {t`Allows users with existing Plena Data accounts to login with a Google account that matches their email address in addition to their Plena Data username and password.`}
           </p>
           <p className="text-grey-4">
-            {jt`To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found ${(
+            {jt`To allow users to sign in with Google you'll need to give Plena Data a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found ${(
               <a
                 className="link"
                 href="https://developers.google.com/identity/sign-in/web/devconsole-project"

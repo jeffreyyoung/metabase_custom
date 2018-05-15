@@ -1,6 +1,6 @@
-## Working with Oracle in Metabase
+## Working with Oracle in Plena Data
 
-Starting in v0.20.0, Metabase provides a driver for connecting to Oracle databases. Under the hood, Metabase uses Oracle's JDBC driver; due to licensing restrictions, we can't
+Starting in v0.20.0, Metabase provides a driver for connecting to Oracle databases. Under the hood, Plena Data uses Oracle's JDBC driver; due to licensing restrictions, we can't
 include it as part of Metabase. Luckily, downloading it yourself and making it available to Metabase is straightforward and only takes a few minutes.
 
 ### Downloading the Oracle JDBC Driver JAR

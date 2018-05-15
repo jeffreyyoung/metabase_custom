@@ -11,7 +11,7 @@ See [Setting up Slack](../administration-guide/09-setting-up-slack.md) for more 
 
 
 ### What can MetaBot do?
-MetaBot can show individual questions and also lists of questions that have already been asked in Metabase.
+MetaBot can show individual questions and also lists of questions that have already been asked in Plena Data.
 
 If you ever need help remembering what MetaBot can do, just type ```metabot help``` in Slack.
 
@@ -27,7 +27,7 @@ To see a question from Metabase in Slack type
 
 ![MetaBot similar](images/metabot/MetabotSimilarItems.png)
 
-That number is the ID number of the question in Metabase, and if you find yourself using the same question over and over again you can save a bit of time by typing “MetaBot show 19.”
+That number is the ID number of the question in Plena Data, and if you find yourself using the same question over and over again you can save a bit of time by typing “MetaBot show 19.”
 
 ![MetaBot show](images/metabot/MetabotShow.png)
 

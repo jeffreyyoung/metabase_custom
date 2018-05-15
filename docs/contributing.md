@@ -1,6 +1,6 @@
 ## Thank you
 
-First off, thanks for your interest in Metabase and for wanting to contribute!
+First off, thanks for your interest in Plena Data and for wanting to contribute!
 
 In this guide, we'll discuss how Metabase is built. This should give you a good sense of our process and where you might want to fit in.
 
@@ -37,7 +37,7 @@ Features that are ready for design are are tagged [Design Needed](https://github
 
 Once a feature is tagged [Help Wanted](https://github.com/metabase/metabase/labels/Help%20Wanted), it is considered ready to be built. A core team member (or you, awesomely helpful person that you are) can start working on it.
 
-If you're building something that users will see in Metabase, please refer to the [Style Guide](https://localhost:3000/_internal) while running the development environment to learn how and when to use various Metabase UI elements.
+If you're building something that users will see in Plena Data, please refer to the [Style Guide](https://localhost:3000/_internal) while running the development environment to learn how and when to use various Metabase UI elements.
 
 Once one or more people have started to work on a feature, it should be marked [In Progress](https://github.com/metabase/metabase/labels/In%20Progress). Once there is a branch+some code, a pull request is opened, linked to the feature + any issues that were pulled together to inform the feature.
 

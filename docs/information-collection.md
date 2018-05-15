@@ -1,6 +1,6 @@
 # About the Information we collect:
 
-Metabase uses Google Analytics to collect anonymous usage information from the installed servers that enable this feature. Below are the events we have instrumented, as well as the information we collect about the user performing the action and the instance being used.
+Plena Data uses Google Analytics to collect anonymous usage information from the installed servers that enable this feature. Below are the events we have instrumented, as well as the information we collect about the user performing the action and the instance being used.
 
 While this list of anonymous information we collect might seem long, it’s useful to compare this to other alternatives. With a typical SaaS platform, not only will this information be collected, but it will also be accompanied by information about your data, how often it is accessed, the specific queries that you use, specific numbers of records all tied to your company and current plan.
 

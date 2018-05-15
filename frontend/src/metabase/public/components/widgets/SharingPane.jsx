@@ -115,7 +115,7 @@ export default class SharingPane extends Component {
           </div>
           <div className="ml2 flex-full">
             <h3 className="text-brand mb1">{t`Public link`}</h3>
-            <div className="mb1">{t`Share this ${resourceType} with people who don't have a Metabase account using the URL below:`}</div>
+            <div className="mb1">{t`Share this ${resourceType} with people who don't have a Plena Data account using the URL below:`}</div>
             <CopyWidget value={publicLink} />
             {extensions &&
               extensions.length > 0 && (

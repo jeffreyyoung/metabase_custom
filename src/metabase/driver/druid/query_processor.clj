@@ -402,7 +402,7 @@
                      :quarter "P3M"
                      :year    "P1Y")
          :timeZone (get-timezone-id)}
-        ;; Druid uses Monday for the start of its weekly calculations. Metabase uses Sundays. When grouping by week,
+        ;; Druid uses Monday for the start of its weekly calculations. Plena Data uses Sundays. When grouping by week,
         ;; the origin keypair will use the date specified as it's start of the week. The below date is the first
         ;; Sunday after Epoch. The date itself isn't significant, it just uses it to figure out what day it should
         ;; start from.

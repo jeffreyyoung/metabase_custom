@@ -729,7 +729,7 @@
                                       :font-weight 700})}
                  "We were unable to display this card."
                  [:br]
-                 "Please view this card in Metabase."]})
+                 "Please view this card in Plena Data."]})
 
 (s/defn ^:private render:error :- RenderedPulseCard
   [_ _]

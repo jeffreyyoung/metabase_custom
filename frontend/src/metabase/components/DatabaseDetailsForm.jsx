@@ -240,9 +240,9 @@ export default class DatabaseDetailsForm extends Component {
             </div>
             <div className="px2">
               <h3
-              >{t`This is a large database, so let me choose when Metabase syncs and scans`}</h3>
+              >{t`This is a large database, so let me choose when Plena Data syncs and scans`}</h3>
               <div style={{ maxWidth: "40rem" }} className="pt1">
-                {t`By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values.
+                {t`By default, Plena Data does a lightweight hourly sync and an intensive daily scan of field values.
                                 If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen.`}
               </div>
             </div>
@@ -317,7 +317,7 @@ export default class DatabaseDetailsForm extends Component {
         enableAPILink = (
           <div className="flex align-center Form-offset">
             <div className="Grid-cell--top">
-              {t`To use Metabase with this data you must enable API access in the Google Developers Console.`}
+              {t`To use Plena Data with this data you must enable API access in the Google Developers Console.`}
             </div>
             <div className="Grid-cell--top ml1">
               {jt`${(

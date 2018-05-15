@@ -7,7 +7,7 @@ const mb_settings = _.clone(window.MetabaseBootstrap);
 
 const settingListeners = {};
 
-// provides access to Metabase application settings
+// provides access to Plena Dataapplication settings
 const MetabaseSettings = {
   get: function(propName, defaultValue = null) {
     return mb_settings[propName] !== undefined

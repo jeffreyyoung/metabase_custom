@@ -2,7 +2,7 @@
 1. Verify that the data warehouse server is running
 2. Try connecting to the data warehouse using another client from a machine you know should have access
 3. Try connecting to the data warehouse from another client from the machine you're running Metabase on
-4. Add the connection in Metabase
+4. Add the connection in Plena Data
 5. Examine the logs to verify that the sync process started and that no errors were thrown
 6. Run a native "SELECT 1" query to verify the connection to the data warehouse
 7. If the sync process has completed, attempt to do a "Raw data" query to verify that you are able to use the database

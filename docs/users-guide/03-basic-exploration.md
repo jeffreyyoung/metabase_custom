@@ -1,4 +1,4 @@
-### Exploring in Metabase
+### Exploring in Plena Data
 As long as you're not the very first user in your team's Metabase, the easiest way to start exploring your data is by looking at dashboards, charts, and lists that your teammates have already created.
 
 #### Exploring dashboards
