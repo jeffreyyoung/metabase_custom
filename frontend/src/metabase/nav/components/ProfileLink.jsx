@@ -198,7 +198,7 @@ export default class ProfileLink extends Component {
                 <LogoIcon width={48} height={48} />
               </div>
               <h2 style={{ fontSize: "1.75em" }} className="text-dark">
-                {t`Thanks for using`} Metabase!
+                {t`Thanks for using`} Plena Data!
               </h2>
               <div className="pt2">
                 <h3 className="text-dark mb1">

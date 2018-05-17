@@ -40,11 +40,11 @@
 
 (def ^:private ^:const abandonment-context
   {:heading      "We’d love your feedback."
-   :callToAction "It looks like Metabase wasn’t quite a match for you. Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+   :callToAction "It looks like Plena Data wasn’t quite a match for you. Would you mind taking a fast 5 question survey to help the Plena Data team understand why and make things better in the future?"
    :link         "http://www.metabase.com/feedback/inactive"})
 
 (def ^:private ^:const follow-up-context
-  {:heading      "We hope you've been enjoying Metabase."
+  {:heading      "We hope you've been enjoying Plena Data."
    :callToAction "Would you mind taking a fast 6 question survey to tell us how it’s going?"
    :link         "http://www.metabase.com/feedback/active"})
 
@@ -66,7 +66,7 @@
                                :logoHeader   true}
                               (random-quote-context)))]
     (email/send-message!
-      :subject      (str "You're invited to join " company "'s Metabase")
+      :subject      (str "You're invited to join " company "'s Plena Data")
       :recipients   [(:email invited)]
       :message-type :html
       :message      message-body)))
@@ -87,8 +87,8 @@
   (let [recipients (all-admin-recipients)]
     (email/send-message!
       :subject      (format (if google-auth?
-                              "%s created a Metabase account"
-                              "%s accepted their Metabase invite")
+                              "%s created a Plena Data account"
+                              "%s accepted their Plena Data invite")
                             (:common_name new-user))
       :recipients   recipients
       :message-type :html
@@ -117,7 +117,7 @@
                         :passwordResetUrl password-reset-url
                         :logoHeader       true})]
     (email/send-message!
-      :subject      "[Metabase] Password Reset Request"
+      :subject      "[Plena Data] Password Reset Request"
       :recipients   [email]
       :message-type :html
       :message      message-body)))
@@ -155,7 +155,7 @@
                             (random-quote-context))
         message-body (stencil/render-file "metabase/email/notification" context)]
     (email/send-message!
-      :subject      "[Metabase] Notification"
+      :subject      "[Plena Data] Notification"
       :recipients   [email]
       :message-type :html
       :message      message-body)))
@@ -165,8 +165,8 @@
   [email msg-type]
   {:pre [(u/email? email) (contains? #{"abandon" "follow-up"} msg-type)]}
   (let [subject      (if (= "abandon" msg-type)
-                       "[Metabase] Help make Metabase better."
-                       "[Metabase] Tell us how things are going.")
+                       "[Plena Data] Help make Plena Data better."
+                       "[Plena Data] Tell us how things are going.")
         context      (merge notification-context
                             (random-quote-context)
                             (if (= "abandon" msg-type)

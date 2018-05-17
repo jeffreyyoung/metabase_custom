@@ -940,7 +940,7 @@ msgstr ""
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:44
 msgid ""
-"To make sure you don't get locked out of Metabase, there always has to be at "
+"To make sure you don't get locked out of Plena Data, there always has to be at "
 "least one user in this group."
 msgstr ""
 
@@ -1473,7 +1473,7 @@ msgid "Getting set up"
 msgstr ""
 
 #: frontend/src/metabase/admin/settings/components/SettingsSetupList.jsx:105
-msgid "A few things you can do to get the most out of Metabase."
+msgid "A few things you can do to get the most out of Plena Data."
 msgstr ""
 
 #: frontend/src/metabase/admin/settings/components/SettingsSetupList.jsx:114
@@ -1642,8 +1642,8 @@ msgstr ""
 msgid ""
 "In plain english, when you embed charts or dashboards from Metabase in your "
 "own application, that application isn't subject to the Affero General Public "
-"License that covers the rest of Metabase, provided you keep the Metabase "
-"logo and the \"Powered by Metabase\" visible on those embeds. You should "
+"License that covers the rest of Plena Data, provided you keep the Metabase "
+"logo and the \"Powered by Plena Data\" visible on those embeds. You should "
 "however, read the license text linked above as that is the actual license "
 "that you will be agreeing to by enabling this feature."
 msgstr ""
@@ -1662,7 +1662,7 @@ msgstr ""
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:28
 msgid ""
-"Premium embedding lets you disable \"Powered by Metabase\" on your embeded "
+"Premium embedding lets you disable \"Powered by Plena Data\" on your embeded "
 "dashboards and questions."
 msgstr ""
 
@@ -1957,7 +1957,7 @@ msgid "Map tile server URL"
 msgstr ""
 
 #: frontend/src/metabase/admin/settings/selectors.js:285
-msgid "Metabase uses OpenStreetMaps by default."
+msgid "Plena Data uses OpenStreetMaps by default."
 msgstr ""
 
 #: frontend/src/metabase/admin/settings/selectors.js:290
@@ -2094,7 +2094,7 @@ msgid "Check your email for instructions on how to reset your password."
 msgstr ""
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:126
-msgid "Sign in to Metabase"
+msgid "Sign in to Plena Data"
 msgstr ""
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:136
@@ -2585,7 +2585,7 @@ msgid "Subscribe"
 msgstr ""
 
 #: frontend/src/metabase/components/NewsletterForm.jsx:102
-msgid "You're subscribed. Thanks for using Metabase!"
+msgid "You're subscribed. Thanks for using Plena Data!"
 msgstr ""
 
 #: frontend/src/metabase/components/NotFound.jsx:11
@@ -3725,7 +3725,7 @@ msgid "Logs"
 msgstr ""
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:170
-msgid "About Metabase"
+msgid "About Plena Data"
 msgstr ""
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:180
@@ -3753,7 +3753,7 @@ msgid "and is built with care in San Francisco, CA"
 msgstr ""
 
 #: frontend/src/metabase/nav/containers/Navbar.jsx:91
-msgid "Metabase Admin"
+msgid "Plena Data Admin"
 msgstr ""
 
 #: frontend/src/metabase/nav/containers/Navbar.jsx:171
@@ -4063,7 +4063,7 @@ msgstr ""
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.jsx:118
 msgid ""
-"Share this {0} with people who don't have a Metabase account using the URL "
+"Share this {0} with people who don't have a Plena Data account using the URL "
 "below:"
 msgstr ""
 
@@ -4323,7 +4323,7 @@ msgstr ""
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:29
 msgid ""
-"Pulses let you send data from Metabase to email or Slack on the schedule of "
+"Pulses let you send data from Plena Data to email or Slack on the schedule of "
 "your choice."
 msgstr ""
 
@@ -5725,7 +5725,7 @@ msgid "X-ray this Field"
 msgstr ""
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:8
-msgid "Metabase is no fun without any data"
+msgid "Plena Data is no fun without any data"
 msgstr ""
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:9
@@ -5880,7 +5880,7 @@ msgid "Contact {0}"
 msgstr ""
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:250
-msgid "Help new Metabase users find their way around."
+msgid "Help new Plena Data users find their way around."
 msgstr ""
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
@@ -6100,7 +6100,7 @@ msgstr ""
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:165
 msgid ""
 "You’ll need some info about your database, like the username and password. "
-"If you don’t have that right now, Metabase also comes with a sample dataset "
+"If you don’t have that right now, Plena Data also comes with a sample dataset "
 "you can get started with."
 msgstr ""
 
@@ -6163,7 +6163,7 @@ msgid "is just a click away."
 msgstr ""
 
 #: frontend/src/metabase/setup/components/Setup.jsx:93
-msgid "Welcome to PlenaData"
+msgid "Welcome to Plena Data"
 msgstr ""
 
 #: frontend/src/metabase/setup/components/Setup.jsx:94
@@ -7229,7 +7229,7 @@ msgstr ""
 #. CONFIG
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj
-msgid "Email address you want to use as the sender of Metabase."
+msgid "Email address you want to use as the sender of Plena Data."
 msgstr ""
 
 #: src/metabase/email.clj
@@ -7412,20 +7412,20 @@ msgid "MetaBot already running. Killing the previous WebSocket listener first."
 msgstr ""
 
 #: src/metabase/public_settings.clj
-msgid "Identify when new versions of Metabase are available."
+msgid "Identify when new versions of Plena Data are available."
 msgstr ""
 
 #: src/metabase/public_settings.clj
-msgid "Information about available versions of Metabase."
+msgid "Information about available versions of Plena Data."
 msgstr ""
 
 #: src/metabase/public_settings.clj
-msgid "The name used for this instance of Metabase."
+msgid "The name used for this instance of Plena Data."
 msgstr ""
 
 #: src/metabase/public_settings.clj
 msgid ""
-"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com"
+"The base URL of this Plena Data instance, e.g. \"http://metabase.my-company.com"
 "\"."
 msgstr ""
 
