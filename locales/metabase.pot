@@ -6181,7 +6181,7 @@ msgid "You're all set up!"
 msgstr ""
 
 #: frontend/src/metabase/setup/components/Setup.jsx:154
-msgid "Take me to Metabase"
+msgid "Take me to Plena Data"
 msgstr ""
 
 #: frontend/src/metabase/setup/components/UserStep.jsx:152

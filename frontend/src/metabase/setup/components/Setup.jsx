@@ -153,7 +153,7 @@ export default class Setup extends Component {
                       to="/explore"
                       className="Button Button--primary"
                       onClick={this.completeSetup.bind(this)}
-                    >{t`Take me to Metabase`}</Link>
+                    >{t`Take me to Plena Data`}</Link>
                   </div>
                 </section>
               ) : null}

@@ -49,7 +49,7 @@ At this point you are all set and ready to use Metabase.  Since we like keeping 
 
 ![Metabase Newsletter](images/NewsletterSignup.png)
 
-Once you're done here simply follow the link to **Take me to Metabase**.  And if you decided to skip the newsletter sign-up it's cool, we still like you :)
+Once you're done here simply follow the link to **Take me to Plena Data**.  And if you decided to skip the newsletter sign-up it's cool, we still like you :)
 
 # Next: Getting started with Metabase
 For a quick overview of how to use Metabase, head over to the [Getting Started Guide](getting-started.md).
